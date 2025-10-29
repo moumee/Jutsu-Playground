@@ -2,6 +2,9 @@
   "dependencies": {
     "com.meta.xr.sdk.core": "78.0.0",
     "com.meta.xr.sdk.interaction.ovr": "78.0.0",
+    "com.meta.xr.sdk.voice": "78.0.0",
+    "com.meta.xr.sdk.voice.composer": "64.0.0",
+    "com.meta.xr.sdk.voice.dictation": "64.0.0",
     "com.meta.xr.simulator": "78.0.0",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.collab-proxy": "2.10.0",
