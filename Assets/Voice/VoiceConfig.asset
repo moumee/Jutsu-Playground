@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7260618638780939572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
+  m_Name: WitComposerData
+  m_EditorClassIdentifier: Meta.Wit.Composer::Meta.WitAi.Composer.Data.Info.WitComposerData
+  canvases: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10,7 +23,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
-  m_Name: JutsuVoiceConfig
+  m_Name: VoiceConfig
   m_EditorClassIdentifier: Meta.WitAi::Meta.WitAi.Data.Configuration.WitConfiguration
   _clientAccessToken: CCORIX4VDGCBJT4X6XFB5Y4UORVGUIO6
   editorVersionTag: 
@@ -22,10 +35,13 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2025-10-27T20:04:15-0700
     trainingStatus: 1
-    lastTrainDuration: 323
-    lastTrainedAt: 2025-10-29T08:52:20-0700
-    nextTrainAt: 2025-10-29T08:46:57-0700
+    lastTrainDuration: 248
+    lastTrainedAt: 2025-10-31T18:11:57-0700
+    nextTrainAt: 2025-10-31T18:07:49-0700
     intents:
+    - id: 1322291636044690
+      name: domain_expansion_infinite_void
+      entities: []
     - id: 4043686592610783
       name: spawn_fox_devil
       entities: []
@@ -539,8 +555,8 @@ MonoBehaviour:
       - phoneme_events
       - word_events
   _configData:
-  - {fileID: 2612476795771654121}
-  _configurationId: 7aa8e47e-19c5-45f8-956c-2e6ca6d8d41d
+  - {fileID: -7260618638780939572}
+  _configurationId: 48d101c2-604b-4efe-b551-faae47e18168
   _requestType: 0
   _requestTimeoutMs: 10000
   endpointConfiguration:
@@ -557,21 +573,8 @@ MonoBehaviour:
   isDemoOnly: 0
   useIntentAttributes: 1
   useConduit: 1
-  _manifestLocalPath: ConduitManifest-c4c26712-e406-4534-9a42-209d4f4e9780.json
+  _manifestLocalPath: ConduitManifest-220383d9-c6f4-4edb-9654-ddef56372248.json
   excludedAssemblies:
   - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   relaxedResolution: 0
---- !u!114 &2612476795771654121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
-  m_Name: WitComposerData
-  m_EditorClassIdentifier: Meta.Wit.Composer::Meta.WitAi.Composer.Data.Info.WitComposerData
-  canvases: []
